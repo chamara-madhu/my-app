@@ -1,0 +1,340 @@
+* {
+  box-sizing: border-box;
+}
+
+/* starts of page heading section */
+.page-head {
+  background: #2b7a78;
+}
+
+.page-title {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  margin: 70px 0;
+  color: #fff;
+}
+
+.search-bar {
+  display: block;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.search-input {
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+  height: 40px;
+  border-radius: 0%;
+  border: 0;
+  background: #2f373a;
+  padding-left: 10px;
+  color: #ccc;
+}
+
+.search-btn {
+  position: absolute;
+  color: #17252a;
+  margin-left: -20px;
+  font-size: 20px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 900;
+}
+
+.search-btn:hover {
+  color: #fff;
+  background: rgb(31, 31, 31);
+  cursor: pointer;
+}
+
+@media (max-width: 650px) {
+  .page-title {
+    font-size: 27px;
+    line-height: 40px;
+    margin: 40px 0;
+  }
+
+  .search-bar {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 993px) {
+  .page-title {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 40px 0;
+  }
+}
+/* ends of page heading section */
+
+/* starts of customize-container  */
+.customize-container {
+  width: 80%;
+  margin: auto;
+  min-height: 60vh;
+}
+
+@media (max-width: 767px) {
+  .customize-container {
+    width: 93%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .customize-container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1224px) {
+  .customize-container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1225px) and (max-width: 1439px) {
+  .customize-container {
+    width: 85%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .customize-container {
+    width: 80%;
+  }
+}
+/* ends of customize-container  */
+
+/* starts of action buttons and no of resucts sec */
+.action-btns {
+  display: block;
+  float: right;
+  background: #ffffff;
+  margin: 35px 5px 0 5px;
+  font-size: 25px;
+  color: #484848;
+  border: 0;
+}
+
+.action-btns:focus {
+  outline: 0;
+}
+
+.action-btns-active {
+  color: #2b7a78 !important;
+  border: 1px solid;
+}
+
+.noOfResults {
+  margin: 0 0 0 15px;
+}
+
+@media (max-width: 480px) {
+  .noOfResults {
+    margin: 0 0 0 2px;
+  }
+}
+/* ends of action buttons and no of resucts sec */
+
+/* starts of card view section */
+.card {
+  float: left;
+  width: 18%;
+  border: 1px solid #e0e0e0;
+  margin: 1%;
+  background: #def2f17a;
+}
+
+.card:hover {
+  -webkit-box-shadow: 3px 3px 5px -1px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 3px 3px 5px -1px rgba(0, 0, 0, 0.61);
+  box-shadow: 3px 3px 5px -1px rgba(0, 0, 0, 0.61);
+  cursor: default;
+}
+
+.card-image-div {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.card-images {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 17px;
+  color: #000;
+  height: 114px;
+  font-weight: 900;
+  padding: 7px;
+}
+
+.image-count {
+  background: #000000ba;
+  font-size: 16px;
+  color: #fff;
+  padding: 7px;
+  margin-bottom: 0;
+}
+
+.time {
+  font-size: 16px;
+  color: #000;
+  text-align: right;
+  padding: 7px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .title {
+    height: auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .card {
+    width: 46%;
+    margin: 2%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .card {
+    width: 46%;
+    margin: 2%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .card {
+    width: 31%;
+    margin: 1%;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1224px) {
+  .card {
+    width: 23%;
+    margin: 1%;
+  }
+}
+
+@media (min-width: 1225px) and (max-width: 1439px) {
+  .card {
+    width: 23%;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1700px) {
+  .card {
+    width: 23%;
+  }
+}
+/* ends of card view section */
+
+/* starts of table view section */
+.table:hover {
+  cursor: default;
+}
+
+.table-header-row {
+  background: #2f373a;
+  color: #fff;
+  font-weight: 600;
+}
+
+.table-title-col {
+  width: 52%;
+}
+
+.table-date-col {
+  width: 17%;
+  text-align: center;
+}
+
+.table-img-count-col {
+  width: 15%;
+  text-align: center;
+}
+
+.table-image-col {
+  text-align: center;
+}
+
+.table-title {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.table-date {
+  font-weight: 700;
+  text-align: center;
+}
+
+.table-count-images {
+  text-align: center;
+  font-weight: 700;
+}
+
+.table-images {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .table-title {
+    font-size: 18px;
+  }
+
+  .table-images {
+    width: 125px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .table-title {
+    font-size: 20px;
+  }
+
+  .table-images {
+    width: 150px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1224px) {
+  .table-title {
+    font-size: 20px;
+  }
+
+  .table-images {
+    width: 150px;
+  }
+}
+
+@media (min-width: 1225px) and (max-width: 1439px) {
+  .table-title {
+    font-size: 20px;
+  }
+
+  .table-images {
+    width: 150px;
+  }
+}
+/* ends of table view section */
